@@ -1,18 +1,33 @@
-# Ignore vendor directory (where dependencies are installed)
-/vendor/
-
-# Ignore .env file (contains sensitive environment configuration)
+# Laravel specific
 .env
+.env.*
+vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+composer.lock
 
-# Ignore storage directory (generated files, caches, etc.)
-/storage/
+# Application specific
+public/storage/
+public/hot/
+storage/*.key
+storage/logs/*
+bootstrap/cache/*
 
-# Ignore node_modules directory (JavaScript dependencies)
-/node_modules/
+# Testing specific
+tests/Feature/*
+tests/Unit/*
+.phpunit.result.cache
 
-# Ignore compiled assets
-/public/css/
-/public/js/
-
-# Ignore logs
-/storage/logs/
+# Other
+Homestead.yaml
+Homestead.json
+/.idea
+/.vagrant
+/.vscode
+/.DS_Store
+/.env.development
+/.env.local
+/.env.production
+/.env.staging
