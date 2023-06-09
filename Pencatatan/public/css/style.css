@@ -2,17 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    outline: none;
-    border: none;  
+     
 }
 
+body{
+    background-color: rgb(224,234,255);
+}
 .container{
     display: flex;
     height: 500px;
     width: 800px;
     border: 1px solid black;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .form{
@@ -32,6 +34,7 @@
 }
 .form h3{
     font-size: 12px;
+    font-family: 'Inter', sans-serif;
     margin-top: 10px;
     text-align: left;
     margin-left: 50px;
@@ -76,3 +79,14 @@
     width: 150px;
     height: 150px;
 }
+
+@media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  
+    .form, .side {
+      flex-basis: 100%;
+    }
+  }
+  
