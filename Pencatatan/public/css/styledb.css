@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #DBE9F6;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #navbar {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  #navbar .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #navbar .account {
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  #content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #sidebar {
+    background-color: #DBE9F6;
+    width: 200px;
+    padding: 20px;
+    border-right: 7px solid #fff;
+    border-left: 1px solid #ccc;
+    position: relative;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  #sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  #sidebar ul li {
+    margin-bottom: 10px;
+  }
+
+  #sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  #sidebar ul .dropdown-menu {
+    background-color: #DBE9F6;
+  }
+
+  #sidebar ul .dropdown-menu a {
+    color: #333;
+  }
+
+  #sidebar .logout {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    text-align: center;
+  }
+
+  .center-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .center-container .table-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .img-container{
+      position: relative;
+  }
+
+  .text-overlay{
+      position: absolute;
+      top: 60%;
+      left: 49%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: black;
+      font-family: "Arial Black", Arial , sans-serif;
+  }
