@@ -23,12 +23,12 @@
               <li><a href="/pemeriksaan"><i class="fas fa-heart"></i> Data Pemeriksaan</a></li>
               <li><a href="/kelahiran"><i class="fas fa-baby"></i> Data Kelahiran</a></li>
               <li><a href="/pengguna"><i class="fas fa-users"></i> Data Pengguna</a></li>
-              <li><a href="/jadwal.php"><i class="far fa-calendar-alt"></i> Jadwal</a></li>
+              <li><a href="/jadwal"><i class="far fa-calendar-alt"></i> Jadwal</a></li>
             </ul>
           </li>
         </ul>
         <div class="logout">
-          <a href="/logout.blade.php" class="btn btn-danger" >Logout</a>
+          <a href="/logout" class="btn btn-danger" >Logout</a>
         </div>
       </div>
       <div id="content">
