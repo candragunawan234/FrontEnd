@@ -27,4 +27,4 @@ Route::get('/dashboard', function () {
 
 Route::get('/pemeriksaan', function () {
     return view('pemeriksaan');
-});
+
