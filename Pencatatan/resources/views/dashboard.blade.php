@@ -16,7 +16,7 @@
     <div class="d-flex flex-grow-1">
       <div id="sidebar">
         <ul>
-          <li><a href="#"><i class="fas fa-home"></i> Beranda</a></li>
+          <li><a href="/dashboard"><i class="fas fa-home"></i> Beranda</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-database"></i> Data Master</a>
             <ul class="dropdown-menu">
