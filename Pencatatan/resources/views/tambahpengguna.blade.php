@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dashboard</title>
+  <title>Tambah Data Pengguna</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="css/styledb.css">
@@ -33,38 +33,23 @@
       </div>
       <div id="content">
         <div class="center-container">
-          <div class="table-container">
-            <table class="table table-info">
-              <thead>
-                <tr>
-                  <th>Senin, 1 April 2023</th>
-                  <th>07.00 WIB</th>
-                  <th>Bidan Deliza Nesya</th>
-                </tr>
-              </thead>
-              {{-- <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>John Doe</td>
-                  <td>25</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Jane Smith</td>
-                  <td>30</td>
-                </tr>
-              </tbody> --}}
-            </table>
-          </div>
-          <div class="img-container"></div>
-          <div class="img">
-            <img src="img/waduh.png" alt="Deskripsi Gambar" class="center-image" width="650" height="300">
-            <div class="text-overlay">
-                <h2>Selamat Datang </h2>
-                <h3> Bidan Deliza</h3>
+          <h2>Tambah Data Pengguna</h2>
+          
+          <form>
+            <div class="form-group">
+              <label for="nama">Nama Bidan</label>
+              <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama">
             </div>
-          </div>
-        </div>
+            <div class="form-group">
+              <label for="kota">Username</label>
+              <input type="text" class="form-control" id="kota" name="kota" placeholder="Masukkan kota">
+            </div>
+            <div class="form-group">
+              <label for="umur">Kata Sandi</label>
+              <input type="number" class="form-control" id="umur" name="umur" placeholder="Masukkan umur">
+            </div>
+            <a href="/pengguna" type="submit" class="btn btn-primary">Simpan</a>
+          </form>
         </div>
       </div>
     </div>
