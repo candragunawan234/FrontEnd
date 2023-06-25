@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Pencatatan | Login</title>
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
       <div class="container">
@@ -18,9 +19,9 @@
         <input type="username" name="username" class="box" placeholder="masukan username">
         <h3>Password</h3>
         <input type="password" name="password" class="box" placeholder="masukan password">
-        <input type="submit" value="LOGIN" id="submit">
+        <a href="/dashboard" type="submit" value="LOGIN" id="submit" style="text-decoration: none; text-align: center;">LOGIN</a>
         </form>
-        
       </div>
+     
 </body>
 </html>

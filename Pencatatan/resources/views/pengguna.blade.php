@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Data Pemeriksaan</title>
+  <title>Data Pengguna</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="css/styledb.css">
@@ -20,8 +20,10 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-database"></i> Data Master</a>
             <ul class="dropdown-menu">
-              <li><a href="/pemeriksaan"><i class="fas fa-check"></i> Data Pemeriksaan</a></li>
+              <li><a href="/pemeriksaan"><i class="fas fa-heart fa-xs"></i> Data Pemeriksaan</a></li>
               <li><a href="/kelahiran"><i class="fas fa-baby"></i> Data Kelahiran</a></li>
+              <li><a href="/pengguna"><i class="fas fa-users"></i> Data Pengguna</a></li>
+              <li><a href="/jadwal"><i class="far fa-calendar-alt"></i> Jadwal</a></li>
             </ul>
           </li>
         </ul>
@@ -31,71 +33,61 @@
       </div>
       <div id="content">
         <div class="center-container">
-		<div class="search-container">
+            <div class="search-container">
                 <input type="text" class="form-control form-control-sm" placeholder="Cari..." />
                 <button class="btn btn-primary btn-sm">
                   <i class="fas fa-search"></i>
                 </button>
               </div>
-            <a href="/tambahpemeriksaan" class="btn btn-primary btn-sm" style="margin-bottom: 10px; margin-right: 70%;">
+            <a href="/tambahpengguna" class="btn btn-primary btn-sm" style="margin-bottom: 10px; margin-right: 70%;">
                 <i class="fas fa-plus"></i> Tambah Data
             </a>
           <div class="table-container">
             <table class="table table-light table-striped table-hover">
               <thead>
                 <tr>
-                  <th>Nama</th>
-                  <th>Tanggal Pemeriksaan</th>
-                  <th>Diagnosa</th>
+                  <th>Nama Pengguna</th>
+                  <th>Username</th>
+                  <th>Role</th>
                   <th>Action</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Rifan</td>
-                  <td>12 juni 2023</td>
-                  <td>Hipertensi</td>
-                  <td><a href="/tb_pemeriksaan">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                </td>
+                  <td>Deliza Nesya Sakinah</td>
+                  <td>Deliza</td>
+                  <td>Bidan</td>
+                  <td>
+                    <a href="/edit_pengguna"><i class="fas fa-edit"></i></a>
+                    <a href="/delete_pengguna"><i class="fas fa-trash"></i></a>
+                  </td>
                 </tr>
                 <tr>
-                    <td>Ajizah Fauziah</td>
-                    <td>16 Juni 2023</td>
-                    <td>Diabetes</td>
-                    <td><a href="/tb_pemeriksaan">
-                      <i class="fas fa-external-link-alt"></i>
-                    </a>
-                  </td>
-                  </tr>
-                  <tr>
-                    <td>Soraya Anastasya</td>
-                    <td>24 Juni 2023</td>
-                    <td>meningitis</td>
-                    <td><a href="/tb_pemeriksaan">
-                      <i class="fas fa-external-link-alt"></i>
-                    </a>
-                  </td>
-                  </tr>
-                  <tr>
-                    <td>Kipli Maemunah</td>
-                    <td>24 Juni 2023</td>
-                    <td>Gagal Ginjal</td>
-                    <td><a href="/tb_pemeriksaan">
-                      <i class="fas fa-external-link-alt"></i>
-                    </a>
-                  </td>
-                  </tr>
-                  <tr>
-                    <td>Koko Sarifudin</td>
-                    <td>25 Juni 2023</td>
-                    <td>Sesak Nafas
+                    <td>Sititi Mukaromah</td>
+                    <td>Sititi</td>
+                    <td>Bidan</td>
+                    <td>
+                        <a href="/edit_pengguna"><i class="fas fa-edit"></i></a>
+                        <a href="/delete_pengguna"><i class="fas fa-trash"></i></a>
                     </td>
-                    <td><a href="/tb_pemeriksaan">
-                      <i class="fas fa-external-link-alt"></i>
-                    </a>
-                  </td>
+                  </tr>
+                  <tr>
+                    <td>Nendah Surtina</td>
+                    <td>Nendah</td>
+                    <td>Bidan</td>
+                    <td>
+                        <a href="/edit_pengguna"><i class="fas fa-edit"></i></a>
+                        <a href="/delete_pengguna"><i class="fas fa-trash"></i></a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>Admin</td>
+                    <td>Admin</td>
+                    <td>Admin</td>
+                    <td>
+                        <a href="/edit_pengguna"><i class="fas fa-edit"></i></a>
+                        <a href="/delete_pengguna"><i class="fas fa-trash"></i></a>
+                      </td>
                   </tr>
               </tbody>
             </table>

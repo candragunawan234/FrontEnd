@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dashboard</title>
+  <title>Edit Jadwal</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="css/styledb.css">
@@ -33,38 +33,38 @@
       </div>
       <div id="content">
         <div class="center-container">
-          <div class="table-container">
-            <table class="table table-info">
-              <thead>
-                <tr>
-                  <th>Senin, 1 April 2023</th>
-                  <th>07.00 WIB</th>
-                  <th>Bidan Deliza Nesya</th>
-                </tr>
-              </thead>
-              {{-- <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>John Doe</td>
-                  <td>25</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Jane Smith</td>
-                  <td>30</td>
-                </tr>
-              </tbody> --}}
-            </table>
-          </div>
-          <div class="img-container"></div>
-          <div class="img">
-            <img src="img/waduh.png" alt="Deskripsi Gambar" class="center-image" width="650" height="300">
-            <div class="text-overlay">
-                <h2>Selamat Datang </h2>
-                <h3> Bidan Deliza</h3>
-            </div>
-          </div>
-        </div>
+          <h2>Ubah Jadwal</h2>
+          
+          <form>
+            <div class="form-group">
+                <label for="jenis_kelamin">Nama Bidan</label>
+                <select class="form-control" id="jenis_kelamin" name="jenis_kelamin">
+                  <option value="Laki-laki">Deliza</option>
+                  <option value="Perempuan">Sititi</option>
+                  <option value="Perempuan">Nendah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="jenis_kelamin">Hari</label>
+                <select class="form-control" id="jenis_kelamin" name="jenis_kelamin">
+                  <option value="Laki-laki">Senin</option>
+                  <option value="Perempuan">Selasa</option>
+                  <option value="Laki-laki">Rabu</option>
+                  <option value="Perempuan">Kamis</option>
+                  <option value="Laki-laki">Jumat</option>
+                  <option value="Perempuan">Sabtu</option>
+                  <option value="Perempuan">Minggu</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="jenis_kelamin">Sesi</label>
+                <select class="form-control" id="jenis_kelamin" name="jenis_kelamin">
+                  <option value="Laki-laki">Pagi</option>
+                  <option value="Perempuan">Siang</option>
+                </select>
+              </div>
+            <a href="/jadwal" type="submit" class="btn btn-primary">Simpan</a>
+          </form>
         </div>
       </div>
     </div>
