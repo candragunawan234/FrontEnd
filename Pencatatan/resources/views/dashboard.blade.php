@@ -28,7 +28,7 @@
           </li>
         </ul>
         <div class="logout">
-          <a href="logout.blade.php" class="btn btn-danger" >Logout</a>
+          <a href="/logout.blade.php" class="btn btn-danger" >Logout</a>
         </div>
       </div>
       <div id="content">
