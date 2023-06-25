@@ -26,9 +26,5 @@ Route::get('/dashboard', function () {
 });
 
 Route::get('/pemeriksaan', function () {
-    return view('pemeriksaan');
-});
-
-Route::get('/kelahiran', function () {
-    return view('kelahiran');
+    return view('data_pemeriksaan');
 });

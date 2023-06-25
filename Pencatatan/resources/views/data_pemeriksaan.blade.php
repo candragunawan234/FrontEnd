@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Data Pemeriksaan</title>
+  <title>Dashboard</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="css/styledb.css">
@@ -20,7 +20,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-database"></i> Data Master</a>
             <ul class="dropdown-menu">
-              <li><a href="/pemeriksaan"><i class="fas fa-heart fa-xs"></i> Data Pemeriksaan</a></li>
+              <li><a href="/pemeriksaan"><i class="fas fa-doctor"></i> Data Pemeriksaan</a></li>
               <li><a href="/kelahiran"><i class="fas fa-baby"></i> Data Kelahiran</a></li>
             </ul>
           </li>
@@ -31,7 +31,7 @@
       </div>
       <div id="content">
         <div class="center-container">
-            <div class="search-container">
+		<div class="search-container">
                 <input type="text" class="form-control form-control-sm" placeholder="Cari..." />
                 <button class="btn btn-primary btn-sm">
                   <i class="fas fa-search"></i>
