@@ -20,14 +20,15 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-database"></i> Data Master</a>
             <ul class="dropdown-menu">
-              <li><a href="kelahiran.blade.php"><i class="fas fa-baby"></i> Data Kelahiran</a></li>
-              <li><a href="pengguna.blade.php"><i class="fas fa-users"></i> Data Pengguna</a></li>
-              <li><a href="jadwal.blade.php"><i class="far fa-calendar-alt"></i> Jadwal</a></li>
+              <li><a href="/pemeriksaan"><i class="fas fa-heart"></i> Data Pemeriksaan</a></li>
+              <li><a href="/kelahiran"><i class="fas fa-baby"></i> Data Kelahiran</a></li>
+              <li><a href="/pengguna"><i class="fas fa-users"></i> Data Pengguna</a></li>
+              <li><a href="/jadwal.php"><i class="far fa-calendar-alt"></i> Jadwal</a></li>
             </ul>
           </li>
         </ul>
         <div class="logout">
-          <button class="btn btn-danger" href>Logout</button>
+          <a href="/logout.blade.php" class="btn btn-danger" >Logout</a>
         </div>
       </div>
       <div id="content">

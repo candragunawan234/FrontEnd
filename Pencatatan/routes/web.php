@@ -24,11 +24,3 @@ Route::get('/login', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
-
-Route::get('/pemeriksaan', function () {
-    return view('pemeriksaan');
-});
-
-Route::get('/kelahiran', function () {
-    return view('kelahiran');
-});
