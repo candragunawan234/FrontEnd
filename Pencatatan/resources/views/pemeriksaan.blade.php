@@ -16,19 +16,17 @@
     <div class="d-flex flex-grow-1">
       <div id="sidebar">
         <ul>
-          <li><a href="/dashboard"><i class="fas fa-home"></i> Beranda</a></li>
+          <li><a href="#"><i class="fas fa-home"></i> Beranda</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-database"></i> Data Master</a>
+            <a href="/dashboard" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-database"></i> Data Master</a>
             <ul class="dropdown-menu">
-              <li><a href="/pemeriksaan"><i class="fas fa-heart"></i> Data Pemeriksaan</a></li>
+              <li><a href="/pemeriksaan"><i class="fas fa-doctor"></i> Data Pemeriksaan</a></li>
               <li><a href="/kelahiran"><i class="fas fa-baby"></i> Data Kelahiran</a></li>
-              <li><a href="/pengguna"><i class="fas fa-users"></i> Data Pengguna</a></li>
-              <li><a href="/jadwal.php"><i class="far fa-calendar-alt"></i> Jadwal</a></li>
             </ul>
           </li>
         </ul>
         <div class="logout">
-          <a href="/logout.blade.php" class="btn btn-danger" >Logout</a>
+          <a href="/login" class="btn btn-danger" href>Logout</a>
         </div>
       </div>
       <div id="content">
