@@ -55,7 +55,7 @@
                   <td>Rifan</td>
                   <td>12 juni 2023</td>
                   <td>Hipertensi</td>
-                  <td><a href="tbl_pemeriksaan.php">
+                  <td><a href="/tb_pemeriksaan">
                     <i class="fas fa-external-link-alt"></i>
                   </a>
                 </td>
@@ -64,7 +64,7 @@
                     <td>Ajizah Fauziah</td>
                     <td>16 Juni 2023</td>
                     <td>Diabetes</td>
-                    <td><a href="tbl_pemeriksaan.php">
+                    <td><a href="/tb_pemeriksaan">
                       <i class="fas fa-external-link-alt"></i>
                     </a>
                   </td>
@@ -73,7 +73,7 @@
                     <td>Soraya Anastasya</td>
                     <td>24 Juni 2023</td>
                     <td>meningitis</td>
-                    <td><a href="tbl_pemeriksaan.php">
+                    <td><a href="/tb_pemeriksaan">
                       <i class="fas fa-external-link-alt"></i>
                     </a>
                   </td>
@@ -82,7 +82,7 @@
                     <td>Kipli Maemunah</td>
                     <td>24 Juni 2023</td>
                     <td>Gagal Ginjal</td>
-                    <td><a href="tbl_pemeriksaan.php">
+                    <td><a href="/tb_pemeriksaan">
                       <i class="fas fa-external-link-alt"></i>
                     </a>
                   </td>
@@ -92,7 +92,7 @@
                     <td>25 Juni 2023</td>
                     <td>Sesak Nafas
                     </td>
-                    <td><a href="tbl_pemeriksaan.php">
+                    <td><a href="/tb_pemeriksaan">
                       <i class="fas fa-external-link-alt"></i>
                     </a>
                   </td>
