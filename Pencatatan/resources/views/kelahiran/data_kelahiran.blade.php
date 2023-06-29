@@ -38,8 +38,7 @@
                 </button>
               </div>
             <a href="/tambahkelahiran" class="btn btn-primary btn-sm" style="margin-bottom: 10px; margin-right: 70%;">
-                <i class="fas fa-plus"></i> Tambah Data
-            </a>
+                <i class="fas fa-plus"></i> Tambah Data</a>
           <div class="table-container">
             <table class="table table-light table-striped table-hover">
               <thead>
