@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tambah Data Pengguna</title>
+  <title>Tambah Data Pemeriksaan</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="css/styledb.css">
@@ -33,22 +33,32 @@
       </div>
       <div id="content">
         <div class="center-container">
-          <h2>Tambah Data Pengguna</h2>
+          <h2>Tambah Data Kelahiran</h2>
           
           <form>
             <div class="form-group">
-              <label for="nama">Nama Bidan</label>
-              <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama">
+              <label for="nama">Tinggi Badan</label>
+              <input type="number" class="form-control" id="nama" name="nama" placeholder="Masukkan Tinggi Badan">
             </div>
             <div class="form-group">
-              <label for="kota">Username</label>
-              <input type="text" class="form-control" id="kota" name="kota" placeholder="Masukkan kota">
+              <label for="kota">Berat Badan</label>
+              <input type="number" class="form-control" id="kota" name="kota" placeholder="Masukkan Berat Badan">
             </div>
             <div class="form-group">
-              <label for="umur">Kata Sandi</label>
-              <input type="number" class="form-control" id="umur" name="umur" placeholder="Masukkan umur">
+              <label for="umur">Lingkar Kepala</label>
+              <input type="number" class="form-control" id="umur" name="umur" placeholder="Masukkan lingkar Kepala">
             </div>
-            <a href="/pengguna" type="submit" class="btn btn-primary">Simpan</a>
+            <div class="form-group">
+                <label for="umur">Lingkar Dada</label>
+                <input type="number" class="form-control" id="umur" name="umur" placeholder="Masukkan Lingkar Dada">
+              </div>
+              <div class="form-group">
+                <label for="umur">Spartus</label>
+                <input type="number" class="form-control" id="umur" name="umur" placeholder="Masukkan Spartus">
+              </div>
+            <div class="text-center">
+            <a href="/4" type="submit" class="btn btn-primary">Selanjutnya</a>
+            </div>
           </form>
         </div>
       </div>

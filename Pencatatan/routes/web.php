@@ -26,15 +26,48 @@ Route::get('/dashboard', function () {
 });
 
 Route::get('/pemeriksaan', function () {
-    return view('data_pemeriksaan');
+    return view('pemeriksaan/data_pemeriksaan');
 });
 
 Route::get('/kelahiran', function () {
-    return view('kelahiran');
+    return view('kelahiran/data_kelahiran');
+});
+
+Route::get('/tambahkelahiran', function () {
+    return view('kelahiran/tambahkelahiran');
+});
+
+Route::get('/editkelahiran', function () {
+    return view('kelahiran/editdatakelahiran');
+});
+
+Route::get('/2', function () {
+    return view('kelahiran/2');
+});
+
+Route::get('/3', function () {
+    return view('kelahiran/3');
+
+});
+Route::get('/4', function () {
+    return view('kelahiran/4');
+});
+
+
+Route::get('/tb_kelahiran', function () {
+    return view('kelahiran/tb_kelahiran');
 });
 
 Route::get('/pengguna', function () {
-    return view('pengguna');
+    return view('pengguna/pengguna');
+});
+
+Route::get('/tambahpengguna', function () {
+    return view('pengguna/tambahpengguna');
+});
+
+Route::get('/editdatapengguna', function () {
+    return view('pengguna/editdatapengguna');
 });
 
 Route::get('/jadwal', function () {
@@ -42,17 +75,17 @@ Route::get('/jadwal', function () {
 });
 
 Route::get('/tambahpemeriksaan', function () {
-    return view('tambahpemeriksaan');
+    return view('pemeriksaan/tambahpemeriksaan');
 });
 
 Route::get('/tb_pemeriksaan', function () {
-    return view('tb_pemeriksaan');
-});
-
-Route::get('/tambahpengguna', function () {
-    return view('tambahpengguna');
+    return view('pemeriksaan/tb_pemeriksaan');
 });
 
 Route::get('/editjadwal', function () {
     return view('editjadwal');
+});
+
+Route::get('/editpemeriksaan', function () {
+    return view('pemeriksaan/editDataPemeriksaan');
 });
